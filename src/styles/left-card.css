@@ -1,0 +1,43 @@
+.card-img-left {
+  display: flex;
+  height: 410px;
+  margin-bottom: 30px;
+}
+
+.small-card-img {
+  width: 50%;
+}
+
+.card-img-left img {
+  height: 410px;
+  width: 100%;
+}
+
+.dark-card-text {
+  background-color: #1E3832;
+  width: 50%;
+  height: 410px;
+  color: white;
+  position: relative;
+}
+
+.dark-card-text-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70%;
+}
+
+.dark-card-text-center h5 {
+  font-size: 23px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.dark-card-text-center p {
+  font-size: 18px;
+  line-height: 40px;
+}

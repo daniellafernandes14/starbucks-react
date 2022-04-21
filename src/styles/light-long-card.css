@@ -1,0 +1,41 @@
+.long-card-img-right {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 630px;
+  margin-bottom: 30px;
+}
+
+.long-light-img {
+  width: 50%;
+}
+
+.long-light-img img {
+  height: 630px;
+  width: 100%;
+}
+
+.long-light-card-text {
+  background-color: #D4E8E1;
+  width: 50%;
+  color: #1E3832;
+  position: relative;
+}
+
+.long-light-card-text h5 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.long-light-card-text p {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.long-light-card-text-center {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

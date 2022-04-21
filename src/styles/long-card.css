@@ -1,0 +1,33 @@
+.long-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.long-card {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.long-card img {
+  width: 700px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.long-card-textbox {
+  background-color: #1E3832;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.long-card-textbox h1 {
+  font-size: 50px;
+}
+
+.long-card-textbox p {
+  font-size: 18px;
+  line-height: 40px;
+}
