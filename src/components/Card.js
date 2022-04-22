@@ -1,14 +1,15 @@
 const Card = (props) => {
+  const {className, className2, className3, className4, img, title, para, btnClass, button} = props
   return (
-    <div className={props.className}>
-      <div className={props.className2}>
-        <img src={props.img} alt='image1' />
+    <div className={className}>
+      <div className={className2}>
+        <img src={img} alt='image1' />
       </div>
-      <div className={props.className3}>
-        <div className={props.className4}>
-          <h5>{props.title}</h5>
-          <p>{props.para}</p>
-          <a className={props.btnClass} href='https://google.com'>{props.button}</a>
+      <div className={className3}>
+        <div className={className4}>
+          <h5>{title}</h5>
+          <p>{para}</p>
+          <a className={btnClass} href='https://google.com'>{button}</a>
         </div>
       </div>
     </div>

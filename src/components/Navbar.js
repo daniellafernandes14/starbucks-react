@@ -1,6 +1,7 @@
 const Navbar = (props) => {
+  const {className} = props
   return (
-    <div className={props.className}>
+    <div className={className}>
       <div className='left-links'>
         <a href="/" className='logo'><img src='../images/logo.png' alt='logo' /></a>
         <a href='https://google.com'>MENU</a>

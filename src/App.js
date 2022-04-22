@@ -8,7 +8,8 @@ const App = () => {
     return(
       <div id='body'>
         <Navbar
-        className='navbar'/>
+          className='navbar'
+        />
         <Card
           className='banner'
           className2='banner-img'
