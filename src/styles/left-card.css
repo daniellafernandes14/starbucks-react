@@ -1,14 +1,29 @@
-.card-img-left {
+.dark-img-left {
   display: flex;
   height: 410px;
   margin-bottom: 30px;
 }
 
-.small-card-img {
+.light-img-left {
+  display: flex;
+  height: 410px;
+  margin-bottom: 30px;
+}
+
+.dark-card-img {
   width: 50%;
 }
 
-.card-img-left img {
+.light-card-img {
+  width: 50%;
+}
+
+.dark-img-left img {
+  height: 410px;
+  width: 100%;
+}
+
+.light-img-left img {
   height: 410px;
   width: 100%;
 }

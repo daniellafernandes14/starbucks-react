@@ -1,15 +1,19 @@
-.card-img-right {
+.light-img-right {
   display: flex;
   flex-direction: row-reverse;
   height: 410px;
   margin-bottom: 30px;
 }
 
-.small-card-img {
+.dark-card-img {
   width: 50%;
 }
 
-.card-img-right img {
+.light-card-img {
+  width: 50%;
+}
+
+.light-img-right img {
   height: 410px;
   width: 100%;
 }

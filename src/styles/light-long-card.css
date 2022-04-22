@@ -1,15 +1,15 @@
-.long-card-img-right {
+.long-light-img-right {
   display: flex;
   flex-direction: row-reverse;
   height: 630px;
   margin-bottom: 30px;
 }
 
-.long-light-img {
+.long-light-card-img {
   width: 50%;
 }
 
-.long-light-img img {
+.long-light-card-img img {
   height: 630px;
   width: 100%;
 }

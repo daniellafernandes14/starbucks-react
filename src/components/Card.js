@@ -1,12 +1,17 @@
 const Card = (props) => {
-  const {className, className2, className3, className4, img, title, para, btnClass, button} = props
+  const {variation, position, img, title, para, btnClass, button} = props
+  // const styleName = {
+  //   if (variation === 'dark') {
+  //     'dark'
+  //   }
+  // }
   return (
-    <div className={className}>
-      <div className={className2}>
+    <div className={`${variation}-img-${position}`}>
+      <div className={`${variation}-card-img`}>
         <img src={img} alt='image1' />
       </div>
-      <div className={className3}>
-        <div className={className4}>
+      <div className={`${variation}-card-text`}>
+        <div className={`${variation}-card-text-center`}>
           <h5>{title}</h5>
           <p>{para}</p>
           <a className={btnClass} href='https://google.com'>{button}</a>

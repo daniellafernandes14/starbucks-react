@@ -10,10 +10,7 @@ const App = () => {
         <Header />
         <Card
           variation='banner'
-          className='banner'
-          className2='banner-img'
-          className3='banner-text'
-          className4='banner-text-center'
+          position='left'
           img='../images/image1.webp'
           title='Turn your usual into free faves*'
           button='Join Starbucks Rewards'
@@ -21,10 +18,7 @@ const App = () => {
         />
         <Card
           variation='long-light'
-          className='long-card-img-right'
-          className2='long-light-img'
-          className3='long-light-card-text'
-          className4='long-light-card-text-center'
+          position='right'
           img='../images/image2.webp'
           title='Planet-positive tips'
           para='April is earth month, but our commitment to reducing our environmental impact is year round. Try these tips on your next Starbucks visit.'
@@ -33,10 +27,8 @@ const App = () => {
         />
         <Longcards />
         <Card
-          className='card-img-left'
-          className2='small-card-img'
-          className3='dark-card-text'
-          className4='dark-card-text-center'
+          variation='dark'
+          position='left'
           img='../images/image5.jpeg'
           title='Vegetarian goodness'
           para='Our Spinach, Feta and Egg White Wrap offers a meatless way to seize the day.'
@@ -44,10 +36,8 @@ const App = () => {
           btnClass='btn-white'
         />
         <Card
-          className='card-img-right'
-          className2='small-card-img'
-          className3='light-card-text'
-          className4='light-card-text-center'
+          variation='light'
+          position='right'
           img='../images/image6.webp'
           title='A good day, on its way'
           para='Get your favorites delivered on Uber Eats.**'
@@ -55,10 +45,8 @@ const App = () => {
           btnClass='btn-black'
         />
         <Card
-          className='card-img-left'
-          className2='small-card-img'
-          className3='light-card-text'
-          className4='light-card-text-center'
+          variation='light'
+          position='left'
           img='../images/image7.webp'
           title='Earning 4,500 Bonus Stars is Super Starifying'
           para='Earn more Stars and even more Rewards with a $0 intro annual fee for your first year with the Starbucks® Rewards Visa® Card. Plus your Stars won’t expire – an exclusive Starbucks benefit for cardmembers. Now that’s Super Starifying.'
