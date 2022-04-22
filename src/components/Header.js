@@ -1,4 +1,4 @@
-const Navbar = (props) => {
+const Header = () => {
   return (
     <nav role='navigation' className='navbar'>
       <div className='left-links'>
@@ -16,4 +16,4 @@ const Navbar = (props) => {
   )
 }
 
-export default Navbar;
+export default Header;

@@ -9,6 +9,7 @@ const App = () => {
       <div id='body'>
         <Header />
         <Card
+          variation='banner'
           className='banner'
           className2='banner-img'
           className3='banner-text'
@@ -19,6 +20,7 @@ const App = () => {
           btnClass='btn-white'
         />
         <Card
+          variation='long-light'
           className='long-card-img-right'
           className2='long-light-img'
           className3='long-light-card-text'
@@ -29,19 +31,7 @@ const App = () => {
           button='Learn how'
           btnClass='btn-black'
         />
-        <Longcards
-          className='long-cards'
-          className2='long-card'
-          className3='long-card-textbox'
-          img1='../images/image3.webp'
-          img2='../images/image4.webp'
-          title1='Iced shaken awakening'
-          title2='Cheerfully chill'
-          para1='Introducing our new Iced Toasted Vanilla Oatmilk Shaken Espresso with rich, creamy layers and nondairy goodness.'
-          para2='Spring sips await with our nondairy Pink Drink, complete with real strawberry pieces and coconutmilk.'
-          button='Order now'
-          btnClass='btn-white'
-        />
+        <Longcards />
         <Card
           className='card-img-left'
           className2='small-card-img'
