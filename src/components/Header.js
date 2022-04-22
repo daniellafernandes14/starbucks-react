@@ -1,7 +1,6 @@
 const Navbar = (props) => {
-  const {className} = props
   return (
-    <div className={className}>
+    <nav role='navigation' className='navbar'>
       <div className='left-links'>
         <a href="/" className='logo'><img src='../images/logo.png' alt='logo' /></a>
         <a href='https://google.com'>MENU</a>
@@ -13,7 +12,7 @@ const Navbar = (props) => {
         <a href='https://google.com' className='nav-btn-white'>Sign in</a>
         <a href='https://google.com' className='nav-btn-black' style={{color: 'white'}}>Join now</a>
       </div>
-    </div>
+    </nav>
   )
 }
 

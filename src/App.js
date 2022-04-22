@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 import Card from './components/Card'
 import Longcards from './components/Longcards'
 
 const App = () => {
     return(
       <div id='body'>
-        <Navbar
-          className='navbar'
-        />
+        <Header />
         <Card
           className='banner'
           className2='banner-img'
