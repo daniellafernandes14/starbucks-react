@@ -17,7 +17,7 @@
 }
 
 .left-links a {
-  color: black;
+  color: $dark-text;
   text-decoration: none;
   margin: 10px;
   font-weight: bold;
@@ -31,7 +31,7 @@
 }
 
 .right-links a {
-  color: black;
+  color: $dark-text;
   text-decoration: none;
   font-size: smaller;
   font-weight: bold;
