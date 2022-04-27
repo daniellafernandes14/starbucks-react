@@ -1,14 +1,12 @@
 .nav-btn-white {
   border: 1px solid black;
   border-radius: 30px;
-  margin-left: 20px !important;
   padding: 8px 16px;
   min-width: 0;
 }
 
 .nav-btn-black {
   background-color: black;
-  margin: 20px !important;
   border-radius: 30px;
   color: white;
   padding: 8px 16px;
