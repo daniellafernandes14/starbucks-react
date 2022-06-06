@@ -3,6 +3,7 @@ import './App.scss';
 import Header from './components/Header'
 import Card from './components/Card'
 import Longcards from './components/Longcards'
+import Modal from './components/Modal'
 
 const App = () => {
     return(
@@ -16,6 +17,7 @@ const App = () => {
           button='Join Starbucks Rewards'
           btnClass='btn-white'
         />
+        <Modal />
         <Card
           variation='long-light'
           position='right'

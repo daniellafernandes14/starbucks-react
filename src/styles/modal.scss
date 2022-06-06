@@ -1,0 +1,52 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #3A504B90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: $dark-green;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+  color: $light-text;
+  line-height: 200%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.modal-close {
+  all: unset;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.modal-body input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.modal-footer {
+  margin: 20px;
+}
+
+.modal-cta {
+  all: unset;
+  background-color: black;
+  border-radius: 30px;
+  width: 100px;
+  color: $light-text;
+  padding: 8px 16px;
+  cursor: pointer;
+}
