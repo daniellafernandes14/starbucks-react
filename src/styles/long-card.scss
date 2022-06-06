@@ -10,10 +10,20 @@
   flex-direction: column;
 }
 
+.img-container {
+  width: 700px;
+  height: 596px;
+  overflow: hidden;
+}
+
 .long-card img {
   width: 700px;
   margin: 0px;
   padding: 0px;
+  transition: transform .5s ease;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .long-card-textbox {

@@ -7,11 +7,17 @@
 
 .long-light-card-img {
   width: 50%;
+  height: 630px;
+  overflow: hidden;
 }
 
 .long-light-card-img img {
   height: 630px;
   width: 100%;
+  transition: transform .5s ease;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .long-light-card-text {

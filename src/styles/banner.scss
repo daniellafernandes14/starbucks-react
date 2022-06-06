@@ -4,7 +4,16 @@
 }
 
 .banner-card-img {
-  width: 50%;
+  width: 1500px;
+  height: 210px;
+  overflow: hidden;
+}
+
+.banner-card-img img {
+  transition: transform .5s ease;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .banner-img-left img {
@@ -13,7 +22,7 @@
 
 .banner-card-text {
   background-color: $dark-green;
-  width: 100%;
+  width: 1500px;
   height: 210px;
   color: $light-text;
   position: relative;

@@ -1,10 +1,5 @@
 const Card = (props) => {
   const {variation, position, img, title, para, btnClass, button} = props
-  // const styleName = {
-  //   if (variation === 'dark') {
-  //     'dark'
-  //   }
-  // }
   return (
     <div className={`${variation}-img-${position}`}>
       <div className={`${variation}-card-img`}>

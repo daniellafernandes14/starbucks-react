@@ -12,10 +12,26 @@
 
 .dark-card-img {
   width: 50%;
+  overflow: hidden;
+}
+
+.dark-card-img img {
+  transition: transform .5s ease;
+  &:hover {
+    transform: scale(1.3);
+  }
 }
 
 .light-card-img {
   width: 50%;
+  overflow: hidden;
+}
+
+.light-card-img img {
+  transition: transform .5s ease;
+  &:hover {
+    transform: scale(1.3);
+  }
 }
 
 .dark-img-left img {
