@@ -1,5 +1,5 @@
 const Card = (props) => {
-  const {variation, position, img, title, para, btnClass, button} = props
+  const {variation, position, img, title, para, btnClass, button, onClick} = props
   return (
     <div className={`${variation}-img-${position}`}>
       <div className={`${variation}-card-img`}>
@@ -9,7 +9,7 @@ const Card = (props) => {
         <div className={`${variation}-card-text-center`}>
           <h5>{title}</h5>
           <p>{para}</p>
-          <a className={btnClass} href='https://google.com'>{button}</a>
+          <button type='button' onClick={onClick} className={btnClass}>{button}</button>
         </div>
       </div>
     </div>

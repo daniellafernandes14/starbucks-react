@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.scss';
 import Header from './components/Header'
 import Card from './components/Card'
@@ -6,6 +6,8 @@ import Longcards from './components/Longcards'
 import Modal from './components/Modal'
 
 const App = () => {
+  const [show, setShow] = useState(false)
+
     return(
       <div id='body'>
         <Header />
@@ -16,8 +18,12 @@ const App = () => {
           title='Turn your usual into free faves*'
           button='Join Starbucks Rewards'
           btnClass='btn-white'
+          onClick={() => setShow(true)}
         />
-        <Modal />
+        <Modal
+          onClose={() => setShow(false)}
+          show={show}
+        />
         <Card
           variation='long-light'
           position='right'

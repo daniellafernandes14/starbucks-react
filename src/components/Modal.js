@@ -1,9 +1,12 @@
 const Modal = (props) => {
-  const {} = props
+  if (!props.show) {
+    return null
+  }
+
   return (
     <div className='modal'>
       <div className='modal-content'>
-        <button className='modal-close'>X</button>
+        <button onClick={props.onClose} className='modal-close'>X</button>
         <div className='modal-header'>
           <h3 className="modal-title">Become a Starbucks Rewards Member</h3>
         </div>
