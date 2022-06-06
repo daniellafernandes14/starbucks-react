@@ -13,6 +13,7 @@
 }
 
 .btn-white {
+  all: unset;
   border: 1px solid white;
   border-radius: 25px;
   text-decoration: none;
@@ -26,6 +27,7 @@
 }
 
 .btn-black {
+  all: unset;
   color: $dark-green;
   font-size: 20px;
   border: 1px solid $dark-green;
